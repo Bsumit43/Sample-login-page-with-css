@@ -44,13 +44,14 @@ input[type="submit"] {
     font-size: 20px;
     background-color: #e42148;
     color: #fff;
-    width: 100%;
+    width: 80%;
     height: 50px;
     margin: 3em 0 1em 0;
     -webkit-transition: 0.5s all;
     -ms-transition: 0.5s all;
     transition: 0.5s all;
     text-align: center;
+    border-radius: 12px;
 }
 
 input[type="submit"]:hover {
@@ -66,6 +67,8 @@ input[type="password"] {
   margin-bottom: 25px;
   margin-left: 8px;
   background-color: transparent;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
 }
 
 ::-webkit-input-placeholder {

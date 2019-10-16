@@ -3,6 +3,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .main > h1{
     font-family: 'Dosis', "merienda-one";
@@ -10,6 +11,7 @@ body{
     font-size: 3em;
     color:#e42148;
     font-weight: 100;
+    padding:0;
 }
 .main > .row{
     background-color: rgb(35, 61, 82);
